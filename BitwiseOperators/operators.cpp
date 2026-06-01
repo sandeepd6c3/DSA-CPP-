@@ -12,11 +12,18 @@ int main()
 	
 	// cout<<(a^b);
 	
-	int x = 10;
+	// int x = 10;
 	
-	x = x << 1;
+	// x = x << 1;
 	
-	cout<<x<<endl;
+	// cout<<x<<endl;
+	
+	
+	// int x = 12;
+	
+	// x = x >> 2; //=> x >> y => x/2 ki power b 
+	
+	// cout<<x<<endl;
 	
 	return 0;
 }
