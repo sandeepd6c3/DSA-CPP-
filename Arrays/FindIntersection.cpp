@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-	vector<int>arr{1,2,3,4,5};
-	vector<int>brr{5,4,9,8,7};
+	    vector<int> arr{1,2,2,3};
+    vector<int> brr{2,2,4};
 	
 	vector<int>ans;
 	
@@ -15,7 +15,10 @@ int main()
 		{
 			if(arr[i] == brr[j])
 			{
+				
 				ans.push_back(arr[i]);
+				 brr[j] = -1;   // mark used
+                break;
 			}
 		}
 	}
